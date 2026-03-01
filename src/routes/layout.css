@@ -4,7 +4,8 @@
     --color-primary: #1A1A1A;
     --color-accent: #0077CC;
 
-    --color-bg: #F9F9F9;
+    --color-bg: #fffffd;
+    --color-surface: #fffffd;
     --color-text: #333333;
 
     --radius-md: 25px;
