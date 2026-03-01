@@ -70,27 +70,24 @@
     </section>
 
     <!-- Why Us -->
-    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8">
+    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
+        <h2 class="text-3xl font-semibold">Why Work With Me</h2>
 
-    </section>
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl">
+            <div class="space-y-3">
+                <h3 class="font-semibold">Manufacturing Focused</h3>
+                <p>Drawings built for real production environments, not just concept visuals.</p>
+            </div>
 
-    <!-- Services -->
-    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8">
+            <div class="space-y-3">
+                <h3 class="font-semibold">Clean, Organized Files</h3>
+                <p>Layered, labeled, and revision-ready for seamless handoff to your team.</p>
+            </div>
 
-    </section>
-
-    <!-- Offer -->
-    <section class="w-full min-h-[25vh] p-16 flex flex-col items-center justify-center bg-(--color-bg) text-center space-y-6">
-
-    </section>
-
-    <!-- Testimonials -->
-    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8">
-
-    </section>
-
-    <!-- Final CTA -->
-    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8">
-
+            <div class="space-y-3">
+                <h3 class="font-semibold">Flexible Capacity</h3>
+                <p>Scale your drafting workload without hiring full-time staff.</p>
+            </div>
+        </div>
     </section>
 </section>
