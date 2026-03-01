@@ -1,49 +1,140 @@
 <section class="relative">
     <section>
-            <div class="absolute pointer-events-none transform rotate-180"
-        style="
-            width:200px;
-            height:500px;
-            top:350px;
-            left:60px;
-            background:
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
-            repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
-        ">
-    </div>
-    <div class="absolute pointer-events-none"
-        style="
-            width:200px;
-            height:500px;
-            top:100px;
-            right:60px;
-            background:
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
-            repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
-        ">
-    </div>
-    <div class="absolute pointer-events-none"
-        style="
-            width:500px;
-            height:2px;
-            top:100px;
-            left:60px;
-            background:
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat;
-        ">
-    </div>
-    <div class="absolute pointer-events-none"
-        style="
-            width:500px;
-            height:500px;
-            top:350px;
-            right:60px;
-            background:
-            repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat;
-        ">
-    </div>
+        <div class="absolute pointer-events-none transform rotate-180"
+            style="
+                width:200px;
+                height:500px;
+                top:350px;
+                left:60px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:200px;
+                height:500px;
+                top:100px;
+                right:60px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:500px;
+                height:2px;
+                top:100px;
+                left:60px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:500px;
+                height:500px;
+                top:350px;
+                right:60px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat;
+            ">
+        </div>
+
+        <div class="absolute pointer-events-none transform rotate-180"
+            style="
+                width:200px;
+                height:300px;
+                top:1200px;
+                left:200px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:900px;
+                height:500px;
+                top:1500px;
+                right:200px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+
+        <div class="absolute pointer-events-none transform rotate-180"
+            style="
+                width:200px;
+                height:300px;
+                top:2100px;
+                left:400px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:200px;
+                height:300px;
+                top:2150px;
+                right:400px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) bottom / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+
+        <div class="absolute pointer-events-none transform rotate-180"
+            style="
+                width:650px;
+                height:200px;
+                top:2800px;
+                left:400px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+        <div class="absolute pointer-events-none"
+            style="
+                width:650px;
+                height:200px;
+                top:3100px;
+                right:450px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat,
+                repeating-linear-gradient(to bottom, var(--color-primary) 0 16px, transparent 16px 26px) right / 2px 100% no-repeat;
+            ">
+        </div>
+
+        <div class="absolute pointer-events-none"
+            style="
+                width:650px;
+                height:8px;
+                bottom:100px;
+                left:575px;
+                background:
+                repeating-linear-gradient(to right, var(--color-primary) 0 16px, transparent 16px 26px) top / 100% 2px no-repeat;
+            ">
+        </div>
+        <!-- Solid -->
+        <div class="absolute pointer-events-none"
+            style="
+                width:800px;
+                height:8px;
+                bottom:125px;
+                left:500px;
+                background:
+                linear-gradient(var(--color-primary), var(--color-primary)) top / 100% 8px no-repeat;
+            ">
+        </div>
     </section>
 
     <!-- Hero -->
