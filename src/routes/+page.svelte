@@ -49,22 +49,12 @@
     <!-- Hero -->
     <section class="min-h-screen flex flex-col md:flex-row items-center justify-center p-16 gap-12">
         <div class="max-w-xl space-y-6">
-            <h1 class="text-4xl md:text-5xl font-bold">
-                Freelance CAD Drafting
-            </h1>
-            <p class="text-lg text-(--color-text)">
-                We provide precise 2D & 3D technical drawings with next day turnaround.
-            </p>
+            <h1 class="text-4xl md:text-5xl font-bold">Freelance CAD Drafting</h1>
+            <p class="text-lg text-(--color-text)">I provide precise 2D & 3D technical drawings with next day turnaround.</p>
 
             <div class="flex gap-4">
-                <a href="#contact"
-                class="px-6 py-3 bg-(--color-accent) text-white rounded shadow">
-                Request a Quote
-                </a>
-                <a href="#services"
-                class="px-6 py-3 border border-(--color-accent) text-(--color-accent) rounded">
-                View Services
-                </a>
+                <a href="#contact" class="px-6 py-3 bg-(--color-accent) text-white rounded shadow">Request a Quote</a>
+                <a href="#services" class="px-6 py-3 border border-(--color-accent) text-(--color-accent) rounded">View Services</a>
             </div>
         </div>
     </section>
@@ -72,7 +62,6 @@
     <!-- Why Us -->
     <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
         <h2 class="text-3xl font-semibold">Why Work With Me</h2>
-
         <div class="grid md:grid-cols-3 gap-8 max-w-5xl">
             <div class="space-y-3">
                 <h3 class="font-semibold">Manufacturing Focused</h3>
@@ -91,10 +80,9 @@
         </div>
     </section>
 
-        <!-- Services -->
+    <!-- Services -->
     <section id="services" class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
         <h2 class="text-3xl font-semibold">Services</h2>
-
         <div class="grid md:grid-cols-2 gap-8 max-w-5xl text-left">
             <div class="space-y-2">
                 <h3 class="font-semibold">2D Technical Drawings</h3>
@@ -115,6 +103,50 @@
                 <h3 class="font-semibold">Overflow Drafting Support</h3>
                 <p>Short-term help for deadlines, backlogs, and peak workloads.</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Offer -->
+    <section class="w-full min-h-[25vh] p-16 flex flex-col items-center justify-center bg-(--color-bg) text-center space-y-6">
+        <h2 class="text-2xl font-semibold">Simple, Transparent Engagement</h2>
+        <p class="max-w-2xl">
+            Hourly or per-drawing pricing. Quick onboarding with your existing standards.
+        </p>
+        <a href="#contact" class="px-6 py-3 bg-(--color-accent) text-white rounded shadow">Get a Quote</a>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
+        <h2 class="text-3xl font-semibold">What Clients Say</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl text-left">
+            <div class="border p-6 rounded space-y-3">
+                <p>
+                    "Delivered clean, production-ready drawings with minimal revisions.
+                    Easy to work with and hit every deadline."
+                </p>
+                <span class="text-sm text-(--color-text)">- M. Smith, Manufacturing Engineer</span>
+            </div>
+
+            <div class="border p-6 rounded space-y-3">
+                <p>
+                    "Helped us clear a backlog of shop drawings in weeks.
+                    Files were organized exactly to our standards."
+                </p>
+                <span class="text-sm text-(--color-text)">- J. Doe, Fabrication Manager</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="contact" class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
+        <h2 class="text-3xl font-semibold">Need Drafting Support?</h2>
+        <p class="max-w-xl">
+            Send a brief description of your project and file format requirements.
+            I'll respond with availability and a quote.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4">
+            <a href="#contact" class="px-6 py-3 bg-(--color-accent) text-white rounded shadow">Email Your Project</a>
+            <a href="#contact" class="px-6 py-3 border border-(--color-accent) text-(--color-accent) rounded">Download Capability Sheet</a>
         </div>
     </section>
 </section>
