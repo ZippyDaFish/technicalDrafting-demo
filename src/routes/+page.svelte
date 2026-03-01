@@ -90,4 +90,31 @@
             </div>
         </div>
     </section>
+
+        <!-- Services -->
+    <section id="services" class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-(--color-surface) space-y-8 text-center">
+        <h2 class="text-3xl font-semibold">Services</h2>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl text-left">
+            <div class="space-y-2">
+                <h3 class="font-semibold">2D Technical Drawings</h3>
+                <p>Fabrication drawings, shop prints, dimensioned layouts, and revisions.</p>
+            </div>
+
+            <div class="space-y-2">
+                <h3 class="font-semibold">3D CAD Modeling</h3>
+                <p>Parts, assemblies, and production-ready models.</p>
+            </div>
+
+            <div class="space-y-2">
+                <h3 class="font-semibold">Drawing Conversions</h3>
+                <p>PDFs, hand sketches, or legacy files converted into clean CAD.</p>
+            </div>
+
+            <div class="space-y-2">
+                <h3 class="font-semibold">Overflow Drafting Support</h3>
+                <p>Short-term help for deadlines, backlogs, and peak workloads.</p>
+            </div>
+        </div>
+    </section>
 </section>
